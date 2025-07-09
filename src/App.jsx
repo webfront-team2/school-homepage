@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import Club from "./components/Club";
 import Notice from "./components/Notice";
 import Home from "./components/Home";
 
@@ -13,12 +13,18 @@ function App() {
       </header>
 
 
+
+
       <section id="notice">
         <Notice />
       </section>
 
       <section id="home">
         <Home />
+      </section>
+
+      <section id="club">
+        <Club />
       </section>
 
       <footer>
